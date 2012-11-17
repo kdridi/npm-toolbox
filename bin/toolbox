@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var toolbox = require('../lib/main');
+
+var util = require('util');
+var async = require('async');
+
+try {
+    toolbox.search("patio", function (err, results) {
+        console.log('%j', results);
+    });
+} catch(e) {
+    console.log('e: ' + util.inspect(e));
+}

@@ -1,0 +1,31 @@
+{ "name": "npm-toolbox"
+, "version": "0.0.1"
+, "description": "npm toolbox library"
+, "main": "lib/main.js"
+, "dependencies":
+  { "async": "0.1.x"
+  , "npm": "1.1.x"
+  }
+, "devDependencies":
+  { "mocha": "*"
+  , "should": "*"
+  }
+, "engines":
+  { "node": "0.8.x"
+  , "npm":  "1.1.x"
+  }
+, "scripts":
+  { "test": "clear; mocha test/*.js"
+  }
+, "repository":
+  { "type": "git"
+  , "url": "https://github.com/kdridi/npm-toolbox.git"
+  }
+, "keywords":
+  [ "npm"
+  , "toolbox"
+  ]
+, "author": "Karim DRIDI"
+, "license": "BSD"
+, "readmeFilename": "README.md"
+}
